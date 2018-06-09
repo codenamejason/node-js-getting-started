@@ -13,6 +13,14 @@ app.get('/', function(request, response) {
   response.render('pages/index');
 });
 
+app.get('/services', function(request, response){
+  response.render('pages/services');
+});
+
+
+
+
+// Start the server and listen on port specified
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
