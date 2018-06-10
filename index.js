@@ -17,7 +17,9 @@ app.get('/services', function(request, response){
   response.render('pages/services');
 });
 
-
+app.get('/schedule', function(request, response){
+  response.render('pages/schedule');
+});
 
 
 // Start the server and listen on port specified
